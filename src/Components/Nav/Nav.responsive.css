@@ -1,0 +1,45 @@
+@media only screen and (min-width: 768px){
+    .nav{
+        position: fixed;
+        width:15rem;
+        height:100%;
+        padding-top:5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:flex-start !important;
+        box-shadow:#333333 0px 0px 12px -3px;
+    }
+    .circle{
+        border:none;
+        
+        transform: translatey(0);
+        background-color: transparent;
+        position: relative;
+        padding:0;
+        box-shadow: none;
+    }
+    .circle:focus{
+        padding: 0 1.5rem;
+    }
+    .nav svg{
+        display:hidden;
+    }
+    .link-color{
+        margin:1rem 2rem;
+        display:flex;
+        align-items: center;
+        padding: 0 1.5rem;
+        border-radius: 0 !important;
+        transition: 0s ease;
+        width:100%;    
+    }
+    .link-color:focus{
+        border-left: 3px solid white;
+    }
+    .icon-tag{
+        display:block;
+        margin-left:1rem;
+    }
+
+}

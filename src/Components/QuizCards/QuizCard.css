@@ -1,0 +1,18 @@
+.quiz-card{
+    border-radius: 2rem;
+    width: 17rem;
+    height:17rem;
+    background-color: var(--secondary-pages);
+    z-index: 0;
+}
+.bg-img{
+    height:40% !important;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+.get-started svg{
+    transition:0.1s ease;
+}
+.get-started:hover svg{
+    transform:translateX(0.2rem)
+}

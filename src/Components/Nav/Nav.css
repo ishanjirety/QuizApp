@@ -1,0 +1,27 @@
+.nav{
+    background-color: var(--secondary-pages);
+    align-items:center !important;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+}
+.link-color{
+    color:var(--icon-color);
+    border-radius:10px !important;
+    margin-left: 0 !important;
+    transition: 0.3s ease-in-out;
+}
+.circle{
+    transform: translatey(-2rem);
+    background-color:var(--secondary-pages);
+    padding:0.3rem;
+    border-radius:50% !important;
+    border: 5px solid var(--primary-pages);
+    box-shadow:#333333 0px 0px 13px 1px;
+}
+.circle:focus{
+    padding:0.2rem;
+}
+.icon-tag{
+    display:none;    
+    color:var(--text-color);
+}

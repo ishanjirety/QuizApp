@@ -1,0 +1,8 @@
+.header{
+    z-index: 2;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, rgba(255,191,14,0.5578606442577031) 55%, rgba(255,227,150,1) 80%, rgba(255,255,255,1) 100%);;
+    border-image-slice: 1;
+    background-color: var(--secondary-pages);
+    color:#f2f2f2;
+}

@@ -1,0 +1,8 @@
+export {SplashScreen} from './SplashScreen/SplashScreen'
+export {Login} from './Login/Login'
+export {Signup} from './Signup/Signup'
+export {ForgotPassword} from './ForgotPassword/ForgotPassword'
+export { Nav } from './Nav/Nav'
+export {QuizCards} from './QuizCards/QuizCards'
+export {Header} from './Header/Header'
+export {ConfirmationModal} from './ConfirmationModal/ConfirmationModal'
